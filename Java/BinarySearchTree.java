@@ -54,6 +54,11 @@ public class BinarySearchTree{
         root = bst.insert(root, 1);
         root = bst.insert(root, 4);
         root = bst.insert(root, 5);
+//         root = bst.insert(root, 3);
+//         root = bst.insert(root, 2);
+//         root = bst.insert(root, 1);
+//         root = bst.insert(root, 4);
+//         root = bst.insert(root, 5);
 
         bst.InOrderTraversal(root);
         System.out.println("");
